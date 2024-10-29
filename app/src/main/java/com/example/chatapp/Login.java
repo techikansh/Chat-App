@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Password cannot be empty or shorter than 6 characters", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    System.out.println(email + " " + password);
+                    Toast.makeText(Login.this, email + "/" + password, Toast.LENGTH_SHORT).show();
 //                    auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
 //                        @Override
 //                        public void onComplete(@NonNull Task<AuthResult> task) {
